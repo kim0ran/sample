@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* ===================================================================
+
+ design.css
+
+======================================================================*/
+
+/*----------------------------------------------------------
+ スマホ
+------------------------------------------------------------*/
+@media screen and (max-width: 640px){
+
+.show-pc { display: none; }
+
+
+/* base
+--------------------------------------------------*/
+
+
+
+/* header
+--------------------------------------------------*/
+
+
+
+
+/* globalNav
+--------------------------------------------------*/
+
+.globalNav {
+    position: relative;
+    z-index: 5;
+}
+
+.globalNav-btn {
+    
+}
+
+.globalNav-nav {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+
+/* main
+--------------------------------------------------*/
+
+.main {
+    background: #eee;
+}
+
+.topVisual-images li img {
+    width: 100%;
+    height: auto;
+}
+
+.bx-pager { display: none; }
+.bx-controls-direction { display: none; }
+
+.contentsList {
+    display: box;
+    background: #c33;
+}
+
+
+
+/* footer
+--------------------------------------------------*/
+
+.footer {
+    background: #000;
+}
+
+.footer-nav {
+    background: #333;
+}
+
+.footer-nav-page a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+.footer-copyright small {
+    font-size: 1em;
+    color: #ccc;
+}
+
+
+
+
+
+
+
+}
+/*----------------------------------------------------------
+ PC
+------------------------------------------------------------*/
+@media screen and (min-width: 641px){
+
+.show-sp { display: none; }
+
+/* base
+--------------------------------------------------*/
+
+
+
+/* header
+--------------------------------------------------*/
+
+
+
+
+/* globalNav
+--------------------------------------------------*/
+
+
+
+/* main
+--------------------------------------------------*/
+
+
+
+
+
+.bx-pager {
+    text-align: center;
+}
+
+.bx-pager-item {
+    display: inline-block;
+}
+
+.bx-pager-link {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: #333;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+.bx-pager-link.active { background: #777; }
+
+.bx-controls-direction { display: none; }
+
+
+
+
+/* footer
+--------------------------------------------------*/
+
+}
+
+
